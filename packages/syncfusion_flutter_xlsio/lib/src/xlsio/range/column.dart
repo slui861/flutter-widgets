@@ -14,10 +14,10 @@ class Column {
   late int index;
 
   /// Represents the column min index.
-  late int min;
+  int min = 0;
 
   /// Represents the column max index.
-  late int max;
+  int max = 0;
 
   /// Parent worksheet.
   late Worksheet worksheet;
