@@ -12,4 +12,4 @@ dependencies:
   syncfusion_flutter_officecore:
     git:
       url: git@github.com:slui861/flutter-widgets.git
-      path: packages/syncfusion_flutter_officecore
+      path: packages/syncfusion_flutter_core
