@@ -205,8 +205,8 @@ class SerializeWorkbook {
         builder.element('cols', nest: () {
           for (final Column column in sheet.columns.innerList) {
             builder.element('col', nest: () {
-              builder.attribute('min', column.index.toString());
-              builder.attribute('max', column.index.toString());
+              builder.attribute('min', column.min > 0 ? column.min.toString() : column.index.toString());
+              builder.attribute('max', column.max > 0 ? column.max.toString() : column.index.toString());
               if (column.width != 0) {
                 builder.attribute('width', column.width.toString());
               } else {

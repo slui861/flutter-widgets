@@ -13,6 +13,12 @@ class Column {
   /// Represents the column index.
   late int index;
 
+  /// Represents the column min index.
+  late int min;
+
+  /// Represents the column max index.
+  late int max;
+
   /// Parent worksheet.
   late Worksheet worksheet;
 }
