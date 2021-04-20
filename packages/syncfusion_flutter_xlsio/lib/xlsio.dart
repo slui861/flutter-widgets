@@ -12,7 +12,7 @@ import 'package:archive/archive.dart';
 import 'package:xml/xml.dart';
 import 'package:image/image.dart' as img;
 import 'package:crypto/crypto.dart';
-import 'package:syncfusion_officecore/officecore.dart';
+import 'package:syncfusion_flutter_officecore/officecore.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/intl.dart';
 import 'package:intl/number_symbols_data.dart';
