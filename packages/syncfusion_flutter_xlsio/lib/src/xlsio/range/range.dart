@@ -543,6 +543,8 @@ class Range {
         } else {
           _columnObj = worksheet.columns.add();
           _columnObj!.index = column;
+          _columnObj!.min = 0;
+          _columnObj!.max = 0;
         }
       }
       _columnObj!.width = value;
