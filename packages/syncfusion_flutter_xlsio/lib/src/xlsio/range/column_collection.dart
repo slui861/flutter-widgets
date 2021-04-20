@@ -37,6 +37,8 @@ class ColumnCollection {
     final Column column = Column(_worksheet);
     innerList.add(column);
     column.index = innerList.length;
+    column.min = 0;
+    column.max = 0;
     return column;
   }
 
