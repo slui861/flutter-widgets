@@ -1002,6 +1002,9 @@ class SerializeWorkbook {
       if (builtInProperties.author != null) {
         builder.element('dc:creator', nest: builtInProperties.author);
       }
+      if (builtInProperties.language != null) {
+        builder.element('dc:language', nest: builtInProperties.language);
+      }
       if (builtInProperties.subject != null) {
         builder.element('dc:subject', nest: builtInProperties.subject);
       }

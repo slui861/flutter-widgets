@@ -23,6 +23,9 @@ class BuiltInProperties {
   /// Gets or Sets title of the document.
   String? title;
 
+  /// Gets or Sets language of the document.
+  String? language;
+
   /// Gets or Sets creation date of the document.
   DateTime? createdDate = DateTime.now();
 
